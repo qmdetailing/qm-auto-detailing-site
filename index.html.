@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Q&M Auto Detailing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #ffffff;
+      color: #003366;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header img {
+      max-width: 200px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #003366;
+      padding-bottom: 0.5rem;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    li {
+      margin-bottom: 1rem;
+    }
+    .service {
+      background-color: #f0f8ff;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    .contact, .why {
+      background-color: #e6f0fa;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      background-color: #003366;
+      color: white;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    a {
+      color: #003366;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Q&M Auto Detailing Logo" />
+    <h1>Q&M Auto Detailing</h1>
+    <p>"Detail Driven. Shine Guaranteed." – Owned by Matthew & Quinn</p>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>Q&M Auto Detailing is a mobile and shop-based service run by high school students Matthew and Quinn. We specialize in restoring your vehicle to showroom quality using premium products and techniques. Quick clean or full premium detail — we’ve got you covered.</p>
+  </section>
+
+  <section>
+    <h2>Services</h2>
+    <ul>
+      <li class="service">
+        <strong>🚗 Quick Clean (Exterior Only) – $40</strong><br>
+        - Hand wash & towel dry<br>
+        - Rims cleaned & tires shined<br>
+        - Exterior windows cleaned
+      </li>
+      <li class="service">
+        <strong>🧼 Interior Refresh – $50</strong><br>
+        - Vacuum seats & floors<br>
+        - Dashboard & console wiped<br>
+        - Interior windows cleaned<br>
+        - Complimentary air freshener
+      </li>
+      <li class="service">
+        <strong>✨ Full Ride Freshen-Up – $95</strong><br>
+        - Includes everything in Quick Clean & Interior Refresh<br>
+        - Door jambs wiped<br>
+        - Floor mats scrubbed<br>
+        - Final walkaround & inspection
+      </li>
+      <li class="service">
+        <strong>Add-Ons:</strong><br>
+        🐾 Pet Hair Removal – $20<br>
+        🧃 Deep Cupholder/Cubby Clean – $10<br>
+        🚨 Extra Dirty Fee – $15<br>
+        🧳 Trunk Vacuum – $10<br>
+        💡 Headlight Wipe & Polish – $15
+      </li>
+    </ul>
+  </section>
+
+  <section class="why">
+    <h2>Why Choose Us?</h2>
+    <ul>
+      <li>✔ Owned and operated by hardworking high school students</li>
+      <li>✔ Every dollar supports our college savings</li>
+      <li>✔ We take pride in delivering high-quality work</li>
+      <li>✔ Flexible scheduling – mobile or shop-based</li>
+      <li>✔ Affordable prices with top-tier results</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact & Social</h2>
+    <p>Email: <a href="mailto:qm.detailing37@gmail.com">qm.detailing37@gmail.com</a></p>
+    <p>Phone: <a href="tel:5551234567">(555) 123-4567</a></p>
+    <p>Instagram: <a href="https://instagram.com/QMDetailing" target="_blank">@QMDetailing</a></p>
+    <p>Facebook: <a href="https://facebook.com/QMAutoDetailing" target="_blank">Q&M Auto Detailing</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Q&M Auto Detailing. All rights reserved.
+  </footer>
+</body>
+</html>
